@@ -8,7 +8,7 @@ git clone https://github.com/mozey/npm-import.git
 cd npm-import
 ```
 
-Install node_modules directly from a github repo [mozey/npm-package](https://github.com/mozey/npm-package)<sup>[1]</sup>, and from a local dir [mozey/npm-local](https://github.com/mozey/npm-local)<sup>[2]</sup>
+Install node_modules directly from a github repo [mozey/npm-package](https://github.com/mozey/npm-package)<sup>[1]</sup>, and from a local dir [mozey/npm-local](https://github.com/mozey/npm-local).<sup>[2]</sup> The local dir must be cloned before running the command below
 ```bash
 npm install
 ```

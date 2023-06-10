@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "npm-local": "file:../npm-local",
     "npm-package": "github:mozey/npm-package"
   }
 }
