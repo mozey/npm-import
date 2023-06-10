@@ -15,12 +15,20 @@ npm install
 
 [Always commit the lockfile](https://stackoverflow.com/a/76058921/639133), **node_modules** can be listed in the **.gitignore** file<sup>[3]</sup>
 
+
+## Update local code
+
+To update local code without bumping the semver, delete the version property for the local package from the `node_modules/.package-lock.json` file, then run
+```bash
+npm update
+```
+
+**TODO** Better way to do this? It can be cumbersome to bump the version every time when troubleshooting integration tests for local libraries
+
+
+## Testing
+
 **TODO** Run tests
-
-
-## Specify version
-
-**TODO** Update package to a specific version
 
 
 ## Reference
@@ -37,3 +45,4 @@ npm install --save-dev "$PRO_PATH/npm-local"
 ```
 
 [3] It's a good idea to make your own clones of repos you'll depend on
+
