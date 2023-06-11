@@ -1,3 +1,4 @@
 _excluded
 .DS_Store
 node_modules
+/dist

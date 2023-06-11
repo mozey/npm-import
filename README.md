@@ -26,11 +26,6 @@ npm update
 **TODO** Better way to do this? It can be cumbersome to bump the version every time when troubleshooting integration tests for local libraries
 
 
-## Testing
-
-**TODO** Run tests
-
-
 ## Reference
 
 [1] Package hosted on github previously saved as a dev dependency like this
@@ -46,3 +41,4 @@ npm install --save-dev "$PRO_PATH/npm-local"
 
 [3] It's a good idea to make your own clones of repos you'll depend on
 
+[4] The goal is to eventually replace both node and npm with deno
